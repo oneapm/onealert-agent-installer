@@ -16,11 +16,11 @@ green='\e[0;32m'
 endColor='\e[0m'
 
 #server url
-YUM_URL="http://yum.110monitor.com:80"
-INSTALL_PROCESS_URL="http://ci1.test.110monitor.com:28080/alert/api/escalation/agentInstall/$NAGIOS_APPKEY"
-MENU_CEP_URL="http://ci1.test.110monitor.com:28080/alert/api/event"
-HB_URL="http://ci1.test.110monitor.com:28080/alert/api/heartbeat/"
-MENU_ALERT_URL="http://ci1.test.110monitor.com:28080/alert"
+YUM_URL="http://yum.110monitor.com"
+INSTALL_PROCESS_URL="http://api.110monitor.com/alert/api/escalation/agentInstall/$NAGIOS_APPKEY"
+MENU_CEP_URL="http://api.110monitor.com/alert/api/event"
+HB_URL="http://api.110monitor.com/alert/api/heartbeat/"
+MENU_ALERT_URL="http://api.110monitor.com/alert"
 
 # detect whether the current user is root.
 # Root user detection
