@@ -58,5 +58,6 @@ echo -e "start add $Plugin plugin."
 $sudo_cmd /usr/bin/onealert-config --add $Plugin --app-key $AppKey --force
 echo -e "add $Plugin plugin is done."
 echo -e "start run onealert agent..."
-$sudo_cmd service onealert start    
+$sudo_cmd chkconfig --add onealert
+$sudo_cmd service onealert start
 curl -d "status=success" -o /dev/null -s $INSTALL_PROCESS_URL
